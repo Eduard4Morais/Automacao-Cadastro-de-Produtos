@@ -47,7 +47,7 @@ pyautogui.press("enter")
 
 import pandas 
 
-tabela = pandas.read_excel("C:\\Users\\marye\\Jornada Python\\Python Automacao\\Python Power Up\\produtos.xlsx")
+tabela = pandas.read_excel("C:\\Users\\marye\\Documents\\Python Automacao\\data\\produtos.xlsx")
 print(tabela) 
 
 for linha in tabela.index:
